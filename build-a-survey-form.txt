@@ -92,6 +92,3 @@ Let's see how long we both stick around :)<p>
     </form> 
   </body>
 </html>
-
-** end of index.html **
-
