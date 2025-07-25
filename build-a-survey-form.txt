@@ -1,0 +1,99 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+<h1 id="title">How well do you know lips?</h1>
+<p id="description">This is a beginner level test for you in order to evaluate how well you know me. This is also a test for me while I learn to code.</br>
+Let's see how long we both stick around :)<p>
+
+  <body>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+      <label id="name-label" for="name">Name (required):</label>
+      <input id="name" required placeholder="Feliz Navidad" type="text">
+      <label id="email-label" for="email">Email (required):</label>
+      <input id="email" required placeholder="lipsisagenius@gmail.com" type="email">
+      <label id="number-label" for="number">Number (so that I never pick up):</label>
+      <input id="number" placeholder="6789998212" type="number" min="3" max="10">
+      </fieldset>
+      <fieldset>
+       <legend>Let's start easy!</legend> 
+      <label id="text" for="favourites">What is lips' favourite colour</label>
+
+      <select name="favourites" id="dropdown">
+       <option value="violet">Violet</option>
+       <option value="indigo">Indigo</option> 
+       <option value="blue">Blue</option> 
+       <option value="green">Green</option> 
+       <option value="yellow">Yellow</option> 
+       <option value="orange">Orange</option> 
+       <option value="red">Red</option> 
+       </select>
+      </fieldset>
+      <fieldset>
+<legend>Time for some yes or no!</legend>
+<fieldset>
+  <legend>Have I ever lied about my age to get something?</legend>
+<label for="yes-option">Yes</label>
+<input id="yes-option" type="radio" name="agreement" value="yes">
+<label for="no-option">No</label>
+<input id="no-option" type="radio" name="agreement" value="no">
+ <legend>Would I try to train my pet to do tricks?</legend>
+<label for="yes-option">Hell yeah!</label>
+<input id="yes-option" type="radio" name="agreement" value="yes"">
+<label for="no-option">Just ways to nap :-)</label>
+<input id="no-option" type="radio" name="agreement" value="no">
+ <legend>Would I flirt my way out of a speeding ticket?</legend>
+<label for="yes-option">Yes</label>
+<input id="yes-option" type="radio" name="agreement" value="yes">
+<label for="no-option">No</label>
+<input id="no-option" type="radio" name="agreement" value="no">
+ <legend>Would I ever read someone else’s messages if their phone was unlocked?</legend>
+<label for="yes-option">Yes</label>
+<input id="yes-option" type="radio" name="agreement" value="yes">
+<label for="no-option">No</label>
+<input id="no-option" type="radio" name="agreement" value="no">
+ <legend>Do you think I have ever lied to you?</legend>
+<label for="yes-option">I know you have</label>
+<input id="yes-option" type="radio" name="agreement" value="yes">
+<label for="no-option">I hope not :-(</label>
+<input id="no-option" type="radio" name="agreement" value="no">
+      </fieldset>
+    </fieldset>
+      <fieldset>
+<legend>What is the weirdest reason you're still friends (or not) with me?</legend>
+<label for=personal>Because your sleepy sass is oddly entertaining</label>
+<input type="checkbox" id="personal" name="personal" value="personal"></br>
+
+<label for=personal>Your mean looks are so de-code-able?</label>
+<input type="checkbox" id="personal" name="personal" value="personal"></br>
+
+<label for=personal>You dodge all feelings like a pro ninja</label>
+<input type="checkbox" id="personal" name="personal" value="personal"></br>
+
+<label for=personal>BYour drunk dance moves are worth the chaos</label>
+<input type="checkbox" id="personal" name="personal" value="personal"></br>
+
+<label for=personal>Your playlists and snacks keep me coming back</label>
+<input type="checkbox" id="personal" name="personal" value="personal"></br>
+
+<label for=personal>That is a question I ask myself everyday</label>
+<input type="checkbox" id="personal" name="personal" value="personal">
+
+      </fieldset>
+      <fieldset>
+        <legend for="remarks">How did you like this survey? (mean comments only<3)</legend>
+        <textarea cols="55" rows="10" name="remarks" id="remarks"></textarea>
+      </fieldset>
+  <button id="submit" type="submit">Submit (Torture ends...for now!)</button>
+    </form> 
+  </body>
+</html>
+
+** end of index.html **
+
